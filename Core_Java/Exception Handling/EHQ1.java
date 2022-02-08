@@ -19,10 +19,10 @@ public class EHQ1 {
 		System.out.println("b/a is: "+ c);
 		    
 		}
-//		catch(ArithmeticException e) {
-//			e.printStackTrace();
-//			System.out.println("Exception Catched");
-//		}
+		catch(ArithmeticException e) {
+			e.printStackTrace();
+			System.out.println("Exception Catched");
+		}
 	}
 
 }
